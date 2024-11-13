@@ -99,6 +99,7 @@ namespace ApiCatalogoJogos.Controllers.V1
             }
 
             //catch (JogoJaCadastradoException ex)
+            //catch (JogoJaCadastradoException ex)
             catch (Exception ex)
             {
                 return NotFound("Não existe esse jogo");
